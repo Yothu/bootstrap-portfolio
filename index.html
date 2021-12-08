@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/style.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -46,7 +47,7 @@
       </nav>
       <!-- Main Page Background image -->
       <div
-        class="bg-dark d-flex align-items-center"
+        class="bg-dark d-flex align-items-center bg-image-xl-none"
         style="
           background-image: url('./images/background/Illustration-header.svg');
           background-position: right;
@@ -55,15 +56,15 @@
         "
       >
         <!-- Maing Page Content -->
-        <div class="row">
-          <div class="col-1 text-white d-flex flex-column justify-content-center align-items-center">
+        <div class="row justify-content-center justify-content-xl-start">
+          <div class="col-4 col-xl-1 text-white d-flex flex-xl-column order-2 order-xl-0 justify-content-center align-items-center">
             <img class="w-50 p-2" src="./images/social-media/github.svg" alt="github-logo">
             <img class="w-50 p-2" src="./images/social-media/Linkedin icon.svg" alt="linkedin-logo">
             <img class="w-50 p-2" src="./images/social-media/angel list.svg" alt="angellist-logo">
             <img class="w-50 p-2" src="./images/social-media/twitter.svg" alt="twitter-logo">
             <img class="w-50 p-2" src="./images/social-media/medium.svg" alt="medium-logo">
           </div>
-          <div class="col-6 py-5 text-white align-content-center">
+          <div class="col-11 col-xl-6 py-5 text-white align-content-center">
             <h1 class="display-1 text-warning">Hey There.
               I’m Alex</h1>
             <h2>I’am a Software Developer</h2>
@@ -76,20 +77,20 @@
     <!-- PROJECTS SECTION -->
     <section id="projects" >
       <!-- PROJECTS HEADER -->
-      <div class="row px-5">
-        <div class="col-12 d-flex">
-          <div class="col-3">
-            <h2 class="p-5">Recent Works</h2>
+      <div class="row px-5 overflow-auto">
+        <div class="col-12 d-flex flex-wrap">
+          <div class="col-12 col-lg-3">
+            <h2 class="p-5">My Recent Works</h2>
           </div>
-          <div class="col-9 d-flex align-content-center">
+          <div class="col-12 col-lg-9 d-flex align-content-center">
             <img src="./images/Vector.svg" class="w-100">
           </div>
         </div>
         <!-- MAIN PROJECT -->
-        <div class="col-7 p-3">
-          <img src="images/project-images/main-project-image.svg" alt="main-project-image">
+        <div class="col-lg-7 p-3">
+          <img src="images/project-images/main-project-image.svg" class="img-fluid" alt="main-project-image">
         </div>
-        <div class="col-5 p-4">
+        <div class="col-lg-5 p-4">
           <h3>Multi-Post Stories</h3>
           <p class="lead">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
           <ul class="d-flex justify-content-start list-unstyled">
@@ -180,14 +181,14 @@
     <!-- ABOUT ME SECTION -->
     <section id="about-me" class="bg-dark p-5">
       <!-- DESCRIPTION -->
-      <div class="row text-white py-5" 
+      <div class="row text-white py-5 bg-image-lg-none" 
         style="
         background-image: url('./images/background/Frame.svg');
         background-position: right;
         background-repeat: no-repeat;
       ">
-        <div class="col-5">
-          <h2 class="display-2 text-warning">About me</h2>
+        <div class="col-12 col-md-5">
+          <h2 class="display-1 text-warning">About me</h2>
           <p class="py-5">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
           <button type="button" class="btn btn-warning text-white">See Project</button>  
         </div>
@@ -196,7 +197,7 @@
       <div class="row py-5"><img src="./images/Devider.svg"></div>
       <!-- TECNOLOGIES -->
       <div class="row">
-        <div class="col text-white">
+        <div class="col-12 col-md-4 text-white text-center text-md-start">
           <ul class="list-unstyled lead"><h3>Languages</h3>
             <li class="mx-2">Javascript</li>
             <li class="mx-2">Ruby</li>
@@ -204,7 +205,7 @@
             <li class="mx-2">Css</li>
           </ul>
         </div>
-        <div class="col text-white">
+        <div class="col-12 col-md-4 text-white text-center text-md-start">
           <ul class="list-unstyled lead"><h3>Frameworks</h3>
             <li class="mx-2">Bootstrap</li>
             <li class="mx-2">Ruby on Rails</li>
@@ -213,7 +214,7 @@
             <li class="mx-2">Selenium</li>
           </ul>
         </div>
-        <div class="col text-white">
+        <div class="col-12 col-md-4 text-white text-center text-md-start">
           <ul class="list-unstyled lead"><h3>Skills</h3>
             <li class="mx-2">Codekit</li>
             <li class="mx-2">Github</li>

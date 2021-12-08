@@ -1,0 +1,15 @@
+.bg-none {
+  background: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .bg-image-lg-none {
+    background-image: none !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-image-xl-none {
+    background-image: none !important;
+  }
+}
