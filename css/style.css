@@ -1,3 +1,16 @@
+.illustration-image {
+  background-image: url("../images/background/Illustration-header.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.frame-image {
+  background-image: url("../images/background/Frame.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
 .bg-none {
   background: none !important;
 }
