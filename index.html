@@ -9,32 +9,32 @@
 
     <title>Bootstrap Portfolio</title>
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-offset="0" tabindex="0">
+  <body>
     <section id="main-page">
       <!-- Navbar -->
-      <nav id="navbar1" class="navbar navbar-expand-lg navbar-dark bg-secondary w-100"> <!-- CHANGE BG -->
-        <div class="nav container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
           <!-- Logo -->
-          <div class="nav col justify-content-center text-center">
+          <div class="col justify-content-center text-center">
             <span class="navbar-brand text-white">John Doe</span>
           </div>
           <!-- Separator -->
           <div class="col"></div>
           <!-- DropBox -->
-          <div class="nav col">
+          <div class="col">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="nav collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#list-item-1">Portfolio</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#projects">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#list-item-2">About</a>
+                  <a class="nav-link text-white" href="#about-me">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#list-item-3">Contact</a>
+                  <a class="nav-link text-white" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="#"><img src="images/icons/Icon - Mail.svg" alt="mail-icon"></a>
@@ -80,7 +80,7 @@
       <div class="row px-5 overflow-auto">
         <div class="col-12 d-flex flex-wrap">
           <div class="col-12 col-lg-3">
-            <h2 id="list-item-1" class="p-5">My Recent Works</h2>
+            <h2 class="p-5">My Recent Works</h2>
           </div>
           <div class="col-12 col-lg-9 d-flex align-content-center">
             <img src="./images/Vector.svg" class="w-100">
@@ -179,7 +179,7 @@
       </div>
     </section>
     <!-- ABOUT ME SECTION -->
-    <section id="list-item-2" class="bg-dark p-5">
+    <section id="about-me" class="bg-dark p-5">
       <!-- DESCRIPTION -->
       <div class="row text-white py-5 bg-image-lg-none" 
         style="
@@ -227,8 +227,8 @@
     </section>
 
     <!-- Contact Form-->
-    <section class="row">
-      <p id="list-item-3" class="col-sm-5 text-center h2 p-5">
+    <section id="contact" class="row">
+      <p class="col-sm-5 text-center h2 p-5">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </p>
       <form class="col-sm-7 p-5" action="">
