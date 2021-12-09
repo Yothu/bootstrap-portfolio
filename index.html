@@ -99,7 +99,50 @@
             <li class="badge bg-light text-dark border m-1">bootstrap</li>
             <li class="badge bg-light text-dark border m-1">Ruby</li>
           </ul>
-          <button type="button" class="btn btn-warning text-white">See Project</button>
+          <button type="button" class="btn btn-warning text-white" 
+                  data-bs-toggle="modal" data-bs-target="#myModal">
+            See Project
+          </button>
+                  <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header row">
+                  <div class="row">
+                    <h3 class="col-11">Keeping track of hundreds  of components website</h3>
+                    <button type="button" class="col-1 btn-close" data-bs-dismiss="modal"></button>
+                  </div>                  
+                  <ul class=" d-flex justify-content-start list-unstyled">                    
+                    <li class="badge bg-white text-dark border m-1">html</li>
+                    <li class="badge bg-white text-dark border m-1">Bootstrap</li>
+                    <li class="badge bg-white text-dark border m-1">Ruby on rails</li>
+                  </ul>                  
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body row">
+                  <div class="col-7">
+                    <img src="images/project-images/ModalSnapshoot.svg" class="img-fluid" alt="main-project-image">
+                  </div>
+                  <div class="col-5"
+                    <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>                  
+                    <button type="button" class="btn btn-warning text-white">
+                      See Live
+                      <img style="padding-left: 5px;" src="images/icons/PopupIcons/Icon-see live.svg" alt="See live icon">
+                    </button>
+                    <button type="button" class="btn btn-warning text-white">
+                      See Source
+                      <img style="padding-left: 5px;" src="images/icons/PopupIcons/Vector.svg" alt="See source icon">
+                    </button>
+                  </div>                            
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       <!-- CARDS -->
@@ -108,8 +151,53 @@
         <div class="card bg-dark text-white m-3">
           <img src="./images/project-images/project-1-image.svg" class="card-img" alt="first-project-image">
           <div class="card-img-overlay d-flex flex-column-reverse p-0">
-            <h3 class="card-title text-dark bg-warning p-3 text-center text-white">See Project</h3>
+            <button type="button" class="btn btn-warning text-white 
+            card-title text-dark bg-warning p-3 text-center text-white" 
+            data-bs-toggle="modal" data-bs-target="#myModal">
+              See Project
+            </button>
+            <!-- <h3 class="card-title text-dark bg-warning p-3 text-center text-white">See Project</h3> -->
+          </div>          
+                  <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header row">
+                  <div class="row">
+                    <h3 class="col-11">Keeping track of hundreds  of components website</h3>
+                    <button type="button" class="col-1 btn-close" data-bs-dismiss="modal"></button>
+                  </div>                  
+                  <ul class=" d-flex justify-content-start list-unstyled">                    
+                    <li class="badge bg-white text-dark border m-1">html</li>
+                    <li class="badge bg-white text-dark border m-1">Bootstrap</li>
+                    <li class="badge bg-white text-dark border m-1">Ruby on rails</li>
+                  </ul>                  
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body row">
+                  <div class="col-7">
+                    <img src="images/project-images/ModalSnapshoot.svg" class="img-fluid" alt="main-project-image">
+                  </div>
+                  <div class="col-5"
+                    <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>                  
+                    <button type="button" class="btn btn-warning text-white">
+                      See Live
+                      <img style="padding-left: 5px;" src="images/icons/PopupIcons/Icon-see live.svg" alt="See live icon">
+                    </button>
+                    <button type="button" class="btn btn-warning text-white">
+                      See Source
+                      <img style="padding-left: 5px;" src="images/icons/PopupIcons/Vector.svg" alt="See source icon">
+                    </button>
+                  </div>                            
+                </div>
+
+              </div>
+            </div>
           </div>
+
         </div>
         <!-- SECOND CARD -->
         <div class="card bg-dark text-white m-3">
