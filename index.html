@@ -16,7 +16,7 @@
         <div class="container-fluid">
           <!-- Logo -->
           <div class="col justify-content-center text-center">
-            <span class="navbar-brand text-white">John Doe</span>
+            <h2 class="navbar-brand text-white">John Doe</h2>
           </div>
           <!-- Separator -->
           <div class="col"></div>
@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Portfolio</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#projects">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">About</a>
+                  <a class="nav-link text-white" href="#about-me">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contact</a>
+                  <a class="nav-link text-white" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#"><img src="images/icons/Icon - Mail.svg" alt="mail-icon"></a>
+                  <a class="nav-link text-white" href="#"><img src="images/icons/icon-mail.svg" alt="mail-icon"></a>
                 </li>
 
               </ul>
@@ -47,20 +47,13 @@
       </nav>
       <!-- Main Page Background image -->
       <div
-        class="bg-dark d-flex align-items-center bg-image-xl-none"
-        style="
-          background-image: url('./images/background/Illustration-header.svg');
-          background-position: right;
-          background-repeat: no-repeat;
-          height: 1000px;
-        "
-      >
+        class="bg-dark d-flex align-items-center bg-image-xl-none illustration-image">
         <!-- Maing Page Content -->
         <div class="row justify-content-center justify-content-xl-start">
           <div class="col-4 col-xl-1 text-white d-flex flex-xl-column order-2 order-xl-0 justify-content-center align-items-center">
             <img class="w-50 p-2" src="./images/social-media/github.svg" alt="github-logo">
-            <img class="w-50 p-2" src="./images/social-media/Linkedin icon.svg" alt="linkedin-logo">
-            <img class="w-50 p-2" src="./images/social-media/angel list.svg" alt="angellist-logo">
+            <img class="w-50 p-2" src="./images/social-media/linkedin-icon.svg" alt="linkedin-logo">
+            <img class="w-50 p-2" src="./images/social-media/angellist.svg" alt="angellist-logo">
             <img class="w-50 p-2" src="./images/social-media/twitter.svg" alt="twitter-logo">
             <img class="w-50 p-2" src="./images/social-media/medium.svg" alt="medium-logo">
           </div>
@@ -83,7 +76,7 @@
             <h2 class="p-5">My Recent Works</h2>
           </div>
           <div class="col-12 col-lg-9 d-flex align-content-center">
-            <img src="./images/Vector.svg" class="w-100">
+            <img src="./images/Vector.svg" class="w-100" alt="vector-image">
           </div>
         </div>
         <!-- MAIN PROJECT -->
@@ -269,12 +262,7 @@
     <!-- ABOUT ME SECTION -->
     <section id="about-me" class="bg-dark p-5">
       <!-- DESCRIPTION -->
-      <div class="row text-white py-5 bg-image-lg-none" 
-        style="
-        background-image: url('./images/background/Frame.svg');
-        background-position: right;
-        background-repeat: no-repeat;
-      ">
+      <div class="row text-white py-5 bg-image-lg-none frame-image">
         <div class="col-12 col-md-5">
           <h2 class="display-1 text-warning">About me</h2>
           <p class="py-5">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -282,11 +270,12 @@
         </div>
       </div>
       <!-- DIVIDER -->
-      <div class="row py-5"><img src="./images/Devider.svg"></div>
+      <div class="row py-5"><img src="./images/Devider.svg" alt="devider-image"></div>
       <!-- TECNOLOGIES -->
       <div class="row">
         <div class="col-12 col-md-4 text-white text-center text-md-start">
-          <ul class="list-unstyled lead"><h3>Languages</h3>
+          <h3>Languages</h3>
+          <ul class="list-unstyled lead">
             <li class="mx-2">Javascript</li>
             <li class="mx-2">Ruby</li>
             <li class="mx-2">Html</li>
@@ -294,7 +283,8 @@
           </ul>
         </div>
         <div class="col-12 col-md-4 text-white text-center text-md-start">
-          <ul class="list-unstyled lead"><h3>Frameworks</h3>
+          <h3>Frameworks</h3>
+          <ul class="list-unstyled lead">
             <li class="mx-2">Bootstrap</li>
             <li class="mx-2">Ruby on Rails</li>
             <li class="mx-2">RSPec</li>
@@ -303,7 +293,8 @@
           </ul>
         </div>
         <div class="col-12 col-md-4 text-white text-center text-md-start">
-          <ul class="list-unstyled lead"><h3>Skills</h3>
+          <h3>Skills</h3>
+          <ul class="list-unstyled lead">
             <li class="mx-2">Codekit</li>
             <li class="mx-2">Github</li>
             <li class="mx-2">Codepen</li>
@@ -315,45 +306,45 @@
     </section>
 
     <!-- Contact Form-->
-    <section class="row">
+    <section id="contact" class="row">
       <p class="col-sm-5 text-center h2 p-5">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </p>
-      <form class="col-sm-7 p-5" action="">
+      <form class="col-sm-7 p-5" action="#" method="post">
         <div class="row">
           <input class="col form-control form-control-md mt-3 border-0 border-bottom" type="text" placeholder="First Name" name="First Name">
           <input class="col form-control form-control-md mt-3 border-0 border-bottom" type="text" placeholder="Last Name" name="Last Name">
         </div>        
         <input class="row form-control form-control-md mt-3 border-0 border-bottom" type="email" name="email" placeholder="E-mail address">
         <textarea class="row form-control form-control-lg mt-3" placeholder="Hello Mariane. Glad to see you" name="message"></textarea>
-        <button class="row mt-3 btn btn-warning btn-lg rounded-0">Get in touch</button>
+        <button type="submit" class="row mt-3 btn btn-warning btn-lg rounded-0">Get in touch</button>
       </form>
       <!-- Social Media Icons -->
       <div class="border-top">
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link" href="https://translate.google.com/?hl=es&sl=en&tl=es&text=popovers&op=translate">
-              <img class="nav-link" src="./images/social-media/github.svg">              
+              <img class="nav-link" src="./images/social-media/github.svg" alt="github-logo">              
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img class="nav-link" src="./images/social-media/Linkedin icon.svg">
+              <img class="nav-link" src="./images/social-media/linkedin-icon.svg" alt="linkedin-logo">
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img class="nav-link" src="./images/social-media/angel list.svg">
+              <img class="nav-link" src="./images/social-media/angellist.svg" alt="angellist-logo">
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img class="nav-link" src="./images/social-media/twitter.svg">
+              <img class="nav-link" src="./images/social-media/twitter.svg" alt="twitter-logo">
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img class="nav-link" src="./images/social-media/medium.svg">
+              <img class="nav-link" src="./images/social-media/medium.svg" alt="medium-logo">
             </a>
           </li>
         </ul>    
