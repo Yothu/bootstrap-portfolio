@@ -1,0 +1,32 @@
+.illustration-image {
+  background-image: url("../images/background/Illustration-header.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.frame-image {
+  background-image: url("../images/background/Frame.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.bg-none {
+  background: none !important;
+}
+
+.icon-btn {
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .bg-image-lg-none {
+    background-image: none !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bg-image-xl-none {
+    background-image: none !important;
+  }
+}
